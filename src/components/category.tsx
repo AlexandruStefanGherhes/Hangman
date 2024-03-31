@@ -24,7 +24,7 @@ const Categories= ({categories,setCategories,setChooseCat,setShowGamePage}:Choos
       </div>
       <div className="flex flex-col w-full h-3/4 justify-between mt-16 md:grid md:grid-rows-3 md:grid-cols-2 md:gap-8 lg:grid-rows-2 lg:grid-cols-3">
         <CatBtn title={"Movies"} onClick={handleCategoryTitle}/>
-        <CatBtn title={"Tv shows"} onClick={handleCategoryTitle}/>
+        <CatBtn title={"TV Shows"} onClick={handleCategoryTitle}/>
         <CatBtn title={"Countries"} onClick={handleCategoryTitle}/>
         <CatBtn title={"Capital Cities"} onClick={handleCategoryTitle}/>
         <CatBtn title={"Animals"} onClick={handleCategoryTitle}/>
