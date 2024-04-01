@@ -21,10 +21,10 @@ function App() {
   const [pause,setPause] = useState<Pause>({isPause:false})
   const [gameWon,setGameWon] = useState<GameWon>({isWon:false})
   const [gameLost,setGameLost] = useState<GameLost>({isLost:false})
-  console.log(pause);
+  // console.log(pause);
   
   useEffect(()=>{
-    axios.get<Data>('./src/data/data.json')
+    axios.get<Data>('/data/data.json')
       .then((response:AxiosResponse<Data>)=>{
         // Handle Success
         const filteredData = response.data ? response.data.categories[chooseCat.chooseCat] || []:[]

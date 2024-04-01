@@ -27,7 +27,7 @@ interface GameInterface {
 const GamePage = ({correctLetters,setLives,showGamePage,chooseCat,lives,setGameWon,gameWon,setGameLost,gameLost,setPause,pause,selectedLetters,setSelectedLetters}: GameInterface) => {
     // const [selectedLetters,setSelectedLetters] = useState<string[]>([])
     const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","'"];
-    console.log(correctLetters);
+    // console.log(correctLetters);
     // console.log("Selected letters:", selectedLetters);
     
     useEffect(()=>{
