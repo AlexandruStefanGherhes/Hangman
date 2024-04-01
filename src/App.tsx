@@ -24,7 +24,7 @@ function App() {
   // console.log(pause);
   
   useEffect(()=>{
-    axios.get<Data>('/assets/data/data.json')
+    axios.get<Data>('/data/data.json')
       .then((response:AxiosResponse<Data>)=>{
         // Handle Success
         const filteredData = response.data ? response.data.categories[chooseCat.chooseCat] || []:[]
