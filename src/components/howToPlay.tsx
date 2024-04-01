@@ -6,7 +6,7 @@ const HowToPlay = ({howTo,setHowTo}: ChildProps) => {
     {howTo && (<div className="absolute top-0 left-0 bottom-0 right-0  bg-mainT flex flex-col items-center p-6 font-mouse lg:p-10">
       <div className="how-title flex items-center justify-between md:justify-start w-full lg:w-5/6">
         <button className="flex align-center justify-center bg-gradient-to-b from-gradS to-gradE rounded-full w-10 h-10 md:w-16 md:h-16 lg:ml-4 lg:w-20 lg:h-20" onClick={() => setHowTo(prevState => ({ ...prevState, isOpen: !prevState.isOpen }))}>
-            <img src="./src/assets/icon-back.svg" className="w-6 md:w-10 lg:w-12" alt="arrow-back" />
+            <img src="/assets/icon-back.svg" className="w-6 md:w-10 lg:w-12" alt="arrow-back" />
         </button>
         <div className="font-mouse text-4xl text-white md:text-8xl md:ml-[22%] lg:ml-[30%] lg:text-[7rem]">How to play</div>
       </div>

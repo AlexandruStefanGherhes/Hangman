@@ -76,13 +76,13 @@ const GamePage = ({correctLetters,setLives,showGamePage,chooseCat,lives,setGameW
     {showGamePage && (<div className="absolute top-0 left-0 bottom-0 right-0 bg-mainT flex flex-col items-center p-6 font-mouse">
         <div className="how-title flex items-center w-full">
             <button className="flex align-center justify-center bg-gradient-to-b from-gradS to-gradE rounded-full w-10 h-10 md:w-16  md:mr-4 md:h-16" onClick={()=>setPause((prevState)=>({isPause:!prevState.isPause}))} disabled={gameWon || gameLost}>
-                <img src="./src/assets/icon-menu.svg" className="w-5 md:w-9 " alt="arrow-back" />
+                <img src="/assets/icon-menu.svg" className="w-5 md:w-9 " alt="arrow-back" />
             </button>
             <div className="font-mouse text-4xl text-white ml-4 md:text-8xl">{chooseCat}</div>
             <div className="bg-white w-16 h-4 rounded-2xl flex items-center p-1.5 ml-auto">
                 <div className={`w-full h-2 rounded-2xl  ${lives < 4 ? "bg-red" : "bg-main"}`} style={{ width: `${((lives / 8)) * 100}%` }} ></div>
             </div>
-            <img src="./src/assets/icon-heart.svg" alt="heart-logo" className="ml-4 w-8 md:w-14"/>
+            <img src="/assets/icon-heart.svg" alt="heart-logo" className="ml-4 w-8 md:w-14"/>
         </div>
 
         <div className="h-full w-full flex flex-col items-center justify-around lg:w-1/2">

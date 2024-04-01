@@ -19,9 +19,9 @@ export default {
     },
     extend: {
       backgroundImage:{
-        'desktop':"url('/src/assets/background-desktop.svg')",
-        'tablet':"url('./src/assets/background-tablet.svg')",
-        'mobile':"url('./src/assets/background-mobile.svg')",
+        'desktop':"url('/assets/background-desktop.svg')",
+        'tablet':"url('/assets/background-tablet.svg')",
+        'mobile':"url('/assets/background-mobile.svg')",
       },
       boxShadow:{
         'inner':"0px 13px 9px 4px rgba(0,0,0,0.05) inset"
