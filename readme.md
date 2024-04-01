@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](assets/ss/mobile.png)
-![Mobile](./assets/ss/mobile2.png)
+![Mobile](./public/assets/ss/mobile.png)
+![Mobile](/public/assets/ss/mobile2.png)
 
 ![Desktop](/assets/ss/desktop1.png)
 ![Desktop](/assets/ss/desktop22.png)
