@@ -32,17 +32,17 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](./src/assets/ss/mobile.png)
-![Mobile](./src/assets/ss/mobile2.png)
+![Mobile](./public/assets/ss/mobile.png)
+![Mobile](./public/assets/ss/mobile2.png)
 
-![Desktop](./src/assets/ss/desktop1.png)
-![Desktop](./src/assets/ss/desktop22.png)
+![Desktop](./public/assets/ss/desktop1.png)
+![Desktop](./public/assets/ss/desktop22.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/my-solution-to-this-challenge-q9DHdxoQ1u)
-- Live Site URL: [Add live site URL here](https://hangman-sepia.vercel.app/)
+- Solution URL: FrontendPage(https://www.frontendmentor.io/solutions/my-solution-to-this-challenge-q9DHdxoQ1u)
+- Live Site URL: VercelPage(https://hangman-sepia.vercel.app/)
 
 ## My process
 
