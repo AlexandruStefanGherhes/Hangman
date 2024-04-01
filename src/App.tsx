@@ -19,7 +19,7 @@ function App() {
   const [selectedLetters,setSelectedLetters] = useState<string[]>([])
   const [lives,setLives] = useState<number>(8)
   const [pause,setPause] = useState<Pause>({isPause:false})
-  const [gameWon,setGameWon] = useState<GameWon>({isWon:false})
+  const [gameWon,setGameWon] = useState<GameWon>({isWon:true})
   const [gameLost,setGameLost] = useState<GameLost>({isLost:false})
   // console.log(pause);
   
